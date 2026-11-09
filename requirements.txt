@@ -1,0 +1,8 @@
+# Python < 3.14 (Hopsworks-Vorgabe)
+hopsworks[python]==5.0.9   # [python]-Extra bringt pyarrow, confluent-kafka etc. mit -- fuer reines Python (ohne Spark) noetig
+pandas==2.3.3
+numpy==2.4.6
+requests==2.34.2
+scikit-learn==1.9.1
+python-dotenv==1.2.3
+joblib==1.6.0

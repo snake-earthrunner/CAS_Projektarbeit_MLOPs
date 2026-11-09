@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.condaenv/
+venv/
+*.egg-info/
+
+# Secrets
+.env
+
+# OS / Editor
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+
+# Data (roh heruntergeladene Kataloge nicht ins Repo)
+data/raw/
+*.csv
+*.json
+!package.json
+
+# Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Archivierte Backup-Dateien (lokale Sicherungen vor Code-Aenderungen, nicht Teil des Projekts)
+archiv_backups/
+
+# Trainiertes Modell (wird lokal gespeichert, keine Model Registry)
+training_pipeline/output/
